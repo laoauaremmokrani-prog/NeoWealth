@@ -1,0 +1,26 @@
+{
+  "timestamp": "2025-08-28T18:18:01",
+  "tier1_snapshot": {
+    "inflation_rate": 0.15,
+    "interest_rate": 4.33,
+    "unemployment_rate": 4.2,
+    "GDP_growth": 1.3078378790341016,
+    "sp500_index": 5881.6298828125
+  },
+  "tier2_risk_level": "medium",
+  "tier3_prediction": {
+    "S&P_500_trend": "DOWN",
+    "recommended_sectors": [
+      "Technology"
+    ],
+    "top_companies": [
+      "AAPL",
+      "MSFT",
+      "NVDA"
+    ],
+    "mlp_score": 0.0,
+    "llm_sentiment": "neutral",
+    "explanation": "Positive market indicators suggest favorable sentiment.",
+    "sector_explanation": "Technology: tech sector performance with market sentiment influence; top companies: AAPL, MSFT, NVDA."
+  }
+}

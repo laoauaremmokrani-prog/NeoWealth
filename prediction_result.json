@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-11-30T14:30:59.357230",
+  "tier1_snapshot": {
+    "inflation_rate": 2.5,
+    "interest_rate": 4.33,
+    "unemployment_rate": 4.2,
+    "GDP_growth": 1.31,
+    "sp500_index": 5881.63
+  },
+  "tier2_risk_level": "medium",
+  "tier2_horizon": "Mid",
+  "tier3_prediction": {
+    "sp500_direction": "UP",
+    "probability_up": 0.7999688506126403,
+    "probability_down": 0.20003114938735966,
+    "recommended_sectors": [
+      "Technology",
+      "Healthcare",
+      "Financials"
+    ],
+    "top_companies": [
+      "AAPL",
+      "MSFT",
+      "NVDA",
+      "JNJ",
+      "PFE",
+      "UNH",
+      "JPM",
+      "BAC",
+      "WFC"
+    ],
+    "reasoning": "Macroeconomic indicators suggest a strong UP trend (confidence: 100.0%). Text analysis indicates neutral market sentiment. LLM unavailable (API key not set). Returning neutral default. Recommended sectors: Technology, Healthcare, Financials.",
+    "mlp_output": {
+      "trend": "UP",
+      "probability_up": 0.9999480843544006
+    },
+    "llm_output": {
+      "sentiment": "neutral",
+      "geopolitical_risk": "medium",
+      "explanation": "LLM unavailable (API key not set). Returning neutral default."
+    }
+  }
+}

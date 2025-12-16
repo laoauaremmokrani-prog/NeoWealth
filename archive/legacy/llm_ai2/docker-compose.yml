@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  hybrid-ai:
+    build: .
+    container_name: stock-market-hybrid-ai
+    volumes:
+      # Mount models directory to persist trained models
+      - ./models:/app/models
+      # Mount logs directory for output logs
+      - ./logs:/app/logs
+    environment:
+      # Set Python to run in unbuffered mode for better logging
+      - PYTHONUNBUFFERED=1
+    # Example usage with demo data
+    command: []
+    # Example usage with custom inputs:
+    # command: ["--macro-json", '{"inflation_rate":3.1,"interest_rate":5.25,"unemployment_rate":4.1,"GDP_growth":2.0,"sp500_index":4500}', "--text", "Tech earnings strong, healthcare investment up"]
+    
+    # For interactive use, uncomment these lines:
+    # stdin_open: true
+    # tty: true

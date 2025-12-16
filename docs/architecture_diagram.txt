@@ -1,0 +1,39 @@
+
++-----------------------------------------------------------------------------------------+
+|                                    USER INTERFACE                                       |
+|  +-----------------------------------------------------------------------------------+  |
+|  |  React Frontend (Port 5173 / Production Build)                                    |  |
+|  |  [ 3D Market Visualization (Three.js) ]                                           |  |
+|  |  [ Modern Glassmorphism Controls      ]                                           |  |
+|  +---------------------------+-------------------------------------------------------+  |
+|                              | (HTTP Request / Mock Data Binding)                       |
++------------------------------|----------------------------------------------------------+
+                               v
++-----------------------------------------------------------------------------------------+
+|                                      BACKEND TIERS                                      |
+|                                                                                         |
+|  TIER 1: Data Pipeline                                                                  |
+|  [Mock Data Generator] --> [Fetchers (Macro, Geopolitics, Sentiment)] --> [DB Insert]   |
+|                                     |                                                   |
+|                                     v                                                   |
+|  TIER 2: Processing                 v (Read Raw Data)                                   |
+|  [Pipeline Manager] <--(Read)--- [Database] <--(Write Cleaned)---+                      |
+|          |                                                       |                      |
+|          +--> [Cleaning & Normalization] --> feature_vectors     |                      |
+|                                                                  |                      |
+|                                                                  |                      |
+|  TIER 3: Model                                                   |                      |
+|  [Hybrid Core] <--(Input Features)-------------------------------+                      |
+|       |                                                                                 |
+|       +--> [MLP Model (Numerical)] --> Trend Probability                                |
+|       |                                                                                 |
+|       +--> [LLM Client (Textual)] --> Sentiment Score & Sectors                         |
+|                                                                                         |
+|       +--> [Combination Logic] --> FINAL PREDICTION                                     |
+|                                          |                                              |
+|                                          v                                              |
+|                                     [Database] (Store Prediction)                       |
++-----------------------------------------------------------------------------------------+
+|                                  DATABASE (Supabase)                                    |
+| [Tables: macro_indicators, geopolitics, sentiment, processed_features, predictions]     |
++-----------------------------------------------------------------------------------------+

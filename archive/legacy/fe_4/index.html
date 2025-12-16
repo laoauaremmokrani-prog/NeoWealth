@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NeoWealth - Tier 3 AI Financial Insights</title>
+  <!-- Premium, geometric sans-serif font (Google Fonts, fallback to system) -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Site Load Animation Overlay (CSS-only, fades out after logo animates) -->
+  <div class="site-loader" id="site-loader">
+    <div class="logo-premium logo-anim">
+      <span class="nw-symbol">⧫</span>
+      <span class="nw-main"><span class="nw-n">N</span><span class="nw-eo">eo</span><span class="nw-w">W</span><span class="nw-ealth">ealth</span></span>
+    </div>
+  </div>
+
+  <!-- Header with Animated Logo (repeats logo, smaller) -->
+  <header class="header-dark">
+    <div class="logo-premium">
+      <span class="nw-symbol">⧫</span>
+      <span class="nw-main"><span class="nw-n">N</span><span class="nw-eo">eo</span><span class="nw-w">W</span><span class="nw-ealth">ealth</span></span>
+    </div>
+  </header>
+
+  <!-- Hero Section with Market Ticker and Animated Chart -->
+  <section class="hero-dark">
+    <h1 class="hero-title">Tier 3 AI Market Intelligence</h1>
+    <p class="hero-desc">Premium, real-time market predictions and rationale, powered by advanced AI and macroeconomic logic.</p>
+    <div class="ticker-dark-container">
+      <div class="ticker-dark">
+        <span>S&amp;P 500 ▲ 4,250.32 +0.85%</span>
+        <span>NASDAQ ▼ 13,200.45 -0.12%</span>
+        <span>GOOGL ▲ 2,850.10 +1.23%</span>
+        <span>AMZN ▲ 3,350.50 +0.67%</span>
+        <span>TSLA ▼ 720.30 -0.45%</span>
+        <span>AAPL ▲ 150.25 +0.34%</span>
+      </div>
+    </div>
+    <div class="chart-dark">
+      <div class="bar bar1"></div>
+      <div class="bar bar2"></div>
+      <div class="bar bar3"></div>
+      <div class="bar bar4"></div>
+      <div class="bar bar5"></div>
+      <div class="bar bar6"></div>
+    </div>
+  </section>
+
+  <!-- Interactive Prediction Controls -->
+  <section class="controls-dark">
+    <form class="controls-form" autocomplete="off">
+      <button type="button" class="predict-btn" id="predict-btn">Predict</button>
+      <!-- Placeholders for displaying prediction results -->
+      <div id="trend"></div>
+      <div id="sectors"></div>
+      <div id="companies"></div>
+      <div id="explanation"></div>
+      <!-- Placeholder: Connect Predict button to backend (Database 2) for submitting user input -->
+    </form>
+  </section>
+
+  <!-- Results Section: Market Direction, Sectors, Companies, Why Tier 3 Chose This Prediction -->
+  <section class="results-dark">
+    <div class="result-card market-dir">
+      <h3>Market Direction</h3>
+      <p><span class="up">▲</span> Bullish Trend Expected</p>
+      <!-- BACKEND HOOK: Pull market direction prediction from Tier 3 via Database 2 -->
+    </div>
+    <div class="result-card sectors">
+      <h3>Top Sectors</h3>
+      <ul>
+        <li>Technology</li>
+        <li>Healthcare</li>
+        <li>Financials</li>
+      </ul>
+      <!-- BACKEND HOOK: Pull sector predictions from Tier 3 via Database 2 -->
+    </div>
+    <div class="result-card companies">
+      <h3>Company Recommendations</h3>
+      <ul>
+        <li>Apple (AAPL)</li>
+        <li>Alphabet (GOOGL)</li>
+        <li>Amazon (AMZN)</li>
+      </ul>
+      <!-- BACKEND HOOK: Pull company recommendations from Tier 3 via Database 2 -->
+    </div>
+    <div class="result-card rationale">
+      <h3>Why Tier 3 chose this prediction</h3>
+      <p>Tier 3's logic weighs macroeconomic indicators (GDP, inflation, VIX), market sentiment, and recent volatility. This prediction reflects a higher macroeconomic weight due to recent VIX spikes and positive earnings sentiment.</p>
+      <!-- BACKEND HOOK: Pull rationale from Tier 3 via Database 2 -->
+    </div>
+  </section>
+
+  <!-- Market Decision Rationale Section -->
+  <section class="rationale-dark">
+    <h2>Market Decision Rationale</h2>
+    <p class="rationale-text">[Placeholder for Tier 3's detailed logic and explanation. This section will be dynamically populated from backend.]</p>
+    <!-- BACKEND HOOK: Populate this section with Tier 3 logic from Database 2 -->
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer-dark">
+    <p>&copy; 2024 NeoWealth. All rights reserved.</p>
+  </footer>
+  <!-- Add Supabase JS SDK -->
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.39.7/+esm"></script>
+  <!-- App logic -->
+  <script src="script.js"></script>
+</body>
+</html> 

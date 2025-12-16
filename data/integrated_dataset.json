@@ -1,0 +1,155 @@
+{
+  "timestamp": "2025-08-28T18:17:34.813311",
+  "risk_level": "medium",
+  "numerical_features": [
+    {
+      "inflation_rate": 0.0,
+      "interest_rate": 0.0,
+      "unemployment_rate": 0.0,
+      "GDP_growth": 0.0,
+      "sp500_index": 0.0
+    }
+  ],
+  "text_features": [
+    {
+      "original_headline": "Trump\u2019s India tariffs take effect: Which sector will be hit, what\u2019s exempt?",
+      "cleaned_headline": "Trumps India tariffs take effect Which sector will be hit whats exempt",
+      "keywords": [
+        "trumps",
+        "india",
+        "tariffs",
+        "take",
+        "effect"
+      ],
+      "sentiment_score": 0.0,
+      "source": "Al Jazeera",
+      "timestamp": NaN,
+      "relevance_score": 2
+    },
+    {
+      "original_headline": "US Fed Reserve Chair Powell opens door to September rate cut",
+      "cleaned_headline": "US Fed Reserve Chair Powell opens door to September rate cut",
+      "keywords": [
+        "reserve",
+        "chair",
+        "powell",
+        "opens",
+        "door"
+      ],
+      "sentiment_score": 0.0,
+      "source": "Al Jazeera",
+      "timestamp": NaN,
+      "relevance_score": 2
+    },
+    {
+      "original_headline": "Russia opposed to European security guarantees for Ukraine, says Kremlin",
+      "cleaned_headline": "Russia opposed to European security guarantees for Ukraine says Kremlin",
+      "keywords": [
+        "russia",
+        "opposed",
+        "european",
+        "security",
+        "guarantees"
+      ],
+      "sentiment_score": 0.0,
+      "source": "Al Jazeera",
+      "timestamp": NaN,
+      "relevance_score": 1
+    },
+    {
+      "original_headline": "Why investors are on tenterhooks for Nvidia\u2019s latest earnings report",
+      "cleaned_headline": "Why investors are on tenterhooks for Nvidias latest earnings report",
+      "keywords": [
+        "investors",
+        "tenterhooks",
+        "nvidias",
+        "latest",
+        "earnings"
+      ],
+      "sentiment_score": 0.5,
+      "source": "Al Jazeera",
+      "timestamp": NaN,
+      "relevance_score": 1
+    },
+    {
+      "original_headline": "Canada to ease most retaliatory tariffs against United States",
+      "cleaned_headline": "Canada to ease most retaliatory tariffs against United States",
+      "keywords": [
+        "canada",
+        "ease",
+        "most",
+        "retaliatory",
+        "tariffs"
+      ],
+      "sentiment_score": 0.5,
+      "source": "Al Jazeera",
+      "timestamp": NaN,
+      "relevance_score": 1
+    },
+    {
+      "original_headline": "Trump threatens to fire US Fed Governor Lisa Cook",
+      "cleaned_headline": "Trump threatens to fire US Fed Governor Lisa Cook",
+      "keywords": [
+        "trump",
+        "threatens",
+        "fire",
+        "governor",
+        "lisa"
+      ],
+      "sentiment_score": 0.0,
+      "source": "Al Jazeera",
+      "timestamp": NaN,
+      "relevance_score": 1
+    },
+    {
+      "original_headline": "US DOJ to probe Fed Reserve\u2019s Cook, urges Powell to remove her: Report",
+      "cleaned_headline": "US DOJ to probe Fed Reserves Cook urges Powell to remove her Report",
+      "keywords": [
+        "probe",
+        "reserves",
+        "cook",
+        "urges",
+        "powell"
+      ],
+      "sentiment_score": 0.0,
+      "source": "Al Jazeera",
+      "timestamp": NaN,
+      "relevance_score": 1
+    },
+    {
+      "original_headline": "Walmart scoops customers from rivals but warns inventory cost is rising",
+      "cleaned_headline": "Walmart scoops customers from rivals but warns inventory cost is rising",
+      "keywords": [
+        "walmart",
+        "scoops",
+        "customers",
+        "from",
+        "rivals"
+      ],
+      "sentiment_score": 0.0,
+      "source": "Al Jazeera",
+      "timestamp": NaN,
+      "relevance_score": 0
+    },
+    {
+      "original_headline": "Trump has bought more than $100m in bonds in office, disclosure shows",
+      "cleaned_headline": "Trump has bought more than 100m in bonds in office disclosure shows",
+      "keywords": [
+        "trump",
+        "bought",
+        "more",
+        "than",
+        "100m"
+      ],
+      "sentiment_score": 0.5,
+      "source": "Al Jazeera",
+      "timestamp": NaN,
+      "relevance_score": 0
+    }
+  ],
+  "metadata": {
+    "macro_features_count": 5,
+    "headlines_count": 9,
+    "processing_timestamp": "2025-08-28T18:17:34.819307"
+  }
+}

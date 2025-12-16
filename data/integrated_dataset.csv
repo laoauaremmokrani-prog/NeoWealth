@@ -1,0 +1,2 @@
+record_id,risk_level,timestamp,inflation_rate,interest_rate,unemployment_rate,GDP_growth,sp500_index,headline,sentiment_score,source,relevance_score
+0,medium,2025-08-28T18:17:34.813311,0.0,0.0,0.0,0.0,0.0,Trumps India tariffs take effect Which sector will be hit whats exempt,0.0,Al Jazeera,2
