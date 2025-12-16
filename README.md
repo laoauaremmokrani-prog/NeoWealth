@@ -104,9 +104,10 @@ PostCSS removed; custom CSS styles only
 Mock data for frontend demo mode
 
 Contributors
+
 Islem Mehdi Laouarem
 
-NIzar Mokrani
+Nizar Mokrani
 
 
 Notes
